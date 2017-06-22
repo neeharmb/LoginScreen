@@ -9,8 +9,6 @@ Time spent: **1** hour spent in total
 
 <img src='mockup.png' title='Picture' width='' alt='Picture' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 This looks best on Nexus 6 screen. 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.neeharmb.loginscreen.LoginActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvBird"
+        android:layout_alignStart="@+id/tvBird"
+        android:layout_below="@+id/tvBird"
+        android:layout_marginTop="58dp"
+        android:text="Welcome to"
+        android:textColor="@color/colorWhite"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tvBird"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/twitterlogo"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnSignUp"
+        android:layout_toStartOf="@+id/btnSignUp" />
+
+    <TextView
+        android:id="@+id/tvWelcomeTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvWelcome"
+        android:layout_alignStart="@+id/tvWelcome"
+        android:layout_below="@+id/tvWelcome"
+        android:text="Twitter"
+        android:textColor="@color/colorWhite"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSeeWhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvWelcomeTwitter"
+        android:layout_alignStart="@+id/tvWelcomeTwitter"
+        android:layout_below="@+id/tvWelcomeTwitter"
+        android:layout_marginTop="30dp"
+        android:text="See what's happening in the"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWorldRightNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSeeWhat"
+        android:layout_alignStart="@+id/tvSeeWhat"
+        android:layout_below="@+id/tvSeeWhat"
+        android:text="world right now"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvWorldRightNow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/button_signup"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btnSignUp"
+        android:layout_alignStart="@+id/btnSignUp"
+        android:layout_below="@+id/btnSignUp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_login"
+        android:text="Log in "
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
